@@ -1,0 +1,246 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+* { padding: 0;
+    Margin: 0;
+    }
+
+
+.header {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+
+.header img{
+    height: auto;
+    width: 60px;
+    padding-left: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+   padding-right: 100px;
+}
+
+li {
+    font-size: 24px;
+    color: #f9faf8;
+    opacity: 75%;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    padding: 80px;
+    
+}
+
+.container img {
+    
+    height: auto;
+    padding-right: 20px;
+    display: flex;
+    width: 390px;
+    height: auto;
+
+   
+}
+
+.content {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub-content {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    
+}
+
+button {
+   background: #3882f6;
+   font-size: 16px;
+   color: white;
+   text-align: center;
+   border-radius: 10px;
+   padding: 10px 20px;
+   border: none;
+}
+
+.heading1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.information img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    border:darkred;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    
+}
+
+.section2 {
+    background: aqua;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.1);
+    background: #f9faf8;
+}
+.victoriatext {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.victoriatext2 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.1);
+    background: #f9faf8;
+}
+.operatext {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.operatext2 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.1);
+    background: #f9faf8;
+}
+.fujitext {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.fujitext2 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#quote {
+    background: #e5e7eb;
+    padding: 100px;
+   
+}
+
+.quote1 {
+    font-size: 32px;
+    opacity: 50%;
+    font-style: italic;
+}
+
+.quote2 {
+    font-size: 30px;
+    text-align: right;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.signup {
+    background-color: #f9faf8;
+}
+
+
+.bluebox {
+    background: #3882f6;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.blueboxtext {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+   
+}
+
+.call {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.signuptext {
+    font-size: 20px;
+    opacity: 75%;
+    color: white;
+}
+
+.signup button {
+    
+    text-align: center;
+    padding-right: 80px;
+    font-size: 20px;
+    border: 4px solid #f9faf8;
+    padding-left: 80px;
+    
+}
